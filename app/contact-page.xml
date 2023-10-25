@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ActionBar title="Contact">
+        <NavigationButton text="Back" tap="goBack"></NavigationButton>
+    </ActionBar>
+    <StackLayout>
+        <Label text="This is the Contact page content." fontSize="18" textAlignment="center" marginTop="20"></Label>
+    </StackLayout>
+</Page>

@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ActionBar title="Skills">
+        <NavigationButton text="Back" tap="goBack"></NavigationButton>
+    </ActionBar>
+    <StackLayout>
+        <Label text="This is the Skills page content." fontSize="18" textAlignment="center" marginTop="20"></Label>
+    </StackLayout>
+</Page>

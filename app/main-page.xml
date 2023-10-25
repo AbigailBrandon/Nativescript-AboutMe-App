@@ -1,0 +1,53 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+
+    <!--=============== Navigation Content ===============-->
+    <ActionBar title="Abigail Brandon" icon=""></ActionBar>
+    <StackLayout>
+        <Label text="Welcome to My Portfolio!" fontSize="20" textAlignment="center" marginTop="20"></Label>
+        <Button text="Bio" tap="onBioTap" margin="10"></Button>
+        <Button text="Skills" tap="onSkillsTap" margin="10"></Button>
+        <Button text="Contact" tap="onContactTap" margin="10"></Button>
+    </StackLayout>
+
+    <!--=============== Main Content ===============-->
+    <ScrollView>
+        <GridLayout rows="44 *, auto, auto" columns="*, auto" class="home-dm ">
+
+            <!--=============== Box Content ===============-->
+            <StackLayout row="1" class="rectangle-31">
+
+                <StackLayout orientation="horizontal" class="mx-10">
+                <Label text="Abigail" class="abigail"></Label>
+                <Label text="Developer" class="developer" ></Label>
+                </StackLayout>
+
+                <Image row="2" src="https://lh3.googleusercontent.com/a/ACg8ocLr4T0D3ogDStByZp3gnZsXRPk0kdSmEOJs9zOynFAmEdg=s576-c-no" stretch="aspectFill" class="img-circle" width="236" height="213" class="rectangle-41 mt-10 mb-10"></Image>
+
+                <StackLayout class="left-100 top-412 text-white text-base font-normal leading-10 whitespace-normal" >
+                    <Label text="Abigailbrandonn@gmail.com" class="abigail-email text-center"></Label>
+                    <Label text="Based in Joplin, Missouri" class="based-in text-center mt-3"></Label>
+                </StackLayout>
+
+    
+                <!--=============== Social Icons ===============-->
+                <StackLayout orientation="horizontal" horizontalAlignment="center" row="2" class="space-x-6 my-10" >
+                    <Image src="https://via.placeholder.com/50x50" class="ellipse"/>
+                    <Image src="https://via.placeholder.com/50x50" class="ellipse"/>
+                    <Image src="https://via.placeholder.com/50x50" class="ellipse"/>
+                    <Image src="https://via.placeholder.com/50x50" class="ellipse"/>
+                </StackLayout>
+
+
+            </StackLayout>
+            <!--=============== Buttons =================-->
+            <StackLayout class="buttons" row="3" >
+
+                <Button text="Portfolio" class="portfolio" tap="onPortfolioTap" class="-primary -rounded-lg" style="background-color: #64EC82;" ></Button>
+
+                <Button text="ABOUT" tap="onAboutTap" class="dkbtn -primary -rounded-lg"></Button>
+                <Button text="SKILLS" tap="onSkillsTap" class="dkbtn -primary -rounded-lg"></Button>
+                <Button text="CONTACT" tap="onContactTap" class="dkbtn -primary -rounded-lg"></Button>
+            </StackLayout>
+        </GridLayout>
+    </ScrollView>
+</Page>
