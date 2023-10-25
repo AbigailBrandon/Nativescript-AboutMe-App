@@ -1,4 +1,4 @@
-function onNavigatingTo(args) {
+function onPageLoaded(args) {
     const page = args.object;
     
     const timelineItems = [
@@ -30,4 +30,4 @@ function onNavigatingTo(args) {
     };
 }
 
-exports.onNavigatingTo = onNavigatingTo;
+exports.onPageLoaded = onPageLoaded;

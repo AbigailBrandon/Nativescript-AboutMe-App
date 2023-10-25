@@ -1,11 +1,11 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
-    <ActionBar title="Skills">
-        <NavigationButton text="Back" tap="goBack"></NavigationButton>
-    </ActionBar>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onPageLoaded">
+  <ActionBar title="Skills">
+    <NavigationButton text="Back" tap="goBack"></NavigationButton>
+  </ActionBar>
 
   <ScrollView class="bg-gray-900 h-full p-6">
     <StackLayout>
-      <Label text="Education and Experience" class="text-4xl text-green-500 mb-8" />
+      <Label text="Education and Experience" class="text-3xl text-green-500 mb-8" />
       <StackLayout v-for="item in timelineItems">
         <Label :text="item.year" class="text-gray-300 mb-2" />
         <StackLayout class="mb-6 pl-4" v-for="entry in item.entries">
@@ -16,6 +16,7 @@
     </StackLayout>
   </ScrollView>
 </Page>
+
 
 
 
