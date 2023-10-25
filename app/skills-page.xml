@@ -1,8 +1,22 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
     <ActionBar title="Skills">
         <NavigationButton text="Back" tap="goBack"></NavigationButton>
     </ActionBar>
+
+  <ScrollView class="bg-gray-900 h-full p-6">
     <StackLayout>
-        <Label text="This is the Skills page content." fontSize="18" textAlignment="center" marginTop="20"></Label>
+      <Label text="Education and Experience" class="text-4xl text-green-500 mb-8" />
+      <StackLayout v-for="item in timelineItems">
+        <Label :text="item.year" class="text-gray-300 mb-2" />
+        <StackLayout class="mb-6 pl-4" v-for="entry in item.entries">
+          <Label :text="entry.title" class="text-gray-100 text-lg" />
+          <Label :text="entry.subtitle" class="text-gray-400" />
+        </StackLayout>
+      </StackLayout>
     </StackLayout>
+  </ScrollView>
 </Page>
+
+
+
+
