@@ -6,13 +6,21 @@
   <ScrollView class="bg-gray-900 h-full p-6">
     <StackLayout>
       <Label text="Education and Experience" class="text-3xl text-green-500 mb-8" />
-      <StackLayout v-for="item in timelineItems">
-        <Label :text="item.year" class="text-gray-300 mb-2" />
-        <StackLayout class="mb-6 pl-4" v-for="entry in item.entries">
-          <Label :text="entry.title" class="text-gray-100 text-lg" />
-          <Label :text="entry.subtitle" class="text-gray-400" />
-        </StackLayout>
-      </StackLayout>
+      <Repeater items="{{ timelineItems }}">
+        <Repeater.itemTemplate>
+          <StackLayout>
+            <Label text="{{ year }}" class="text-gray-300 mb-2" />
+            <Repeater items="{{ entries }}">
+              <Repeater.itemTemplate>
+                <StackLayout class="mb-6 pl-4">
+                  <Label text="{{ title }}" class="text-gray-100 text-lg" />
+                  <Label text="{{ subtitle }}" class="text-gray-400" />
+                </StackLayout>
+              </Repeater.itemTemplate>
+            </Repeater>
+          </StackLayout>
+        </Repeater.itemTemplate>
+      </Repeater>
     </StackLayout>
   </ScrollView>
 </Page>
