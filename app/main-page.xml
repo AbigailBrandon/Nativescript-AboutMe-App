@@ -27,7 +27,6 @@
                     <Label text="Abigailbrandonn@gmail.com" class="abigail-email text-center"></Label>
                     <Label text="Based in Joplin, Missouri" class="based-in text-center mt-3"></Label>
                 </StackLayout>
-
     
                 <!--=============== Social Icons ===============-->
                 <StackLayout orientation="horizontal" horizontalAlignment="center" row="2" class="space-x-6 my-10" >
@@ -36,7 +35,6 @@
                     <Image src="https://via.placeholder.com/50x50" class="ellipse"/>
                     <Image src="https://via.placeholder.com/50x50" class="ellipse"/>
                 </StackLayout>
-
 
             </StackLayout>
             <!--=============== Buttons =================-->
