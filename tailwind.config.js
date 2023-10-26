@@ -6,7 +6,13 @@ module.exports = {
   // use the .ns-dark class to control dark mode (applied by NativeScript) - since 'media' (default) is not supported.
   darkMode: ['class', '.ns-dark'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'grey': '#1F1F1F',
+        'green': '#64EC82',
+        'red': '#FF000B',
+      },
+    },
   },
   plugins: [],
   corePlugins: {

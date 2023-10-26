@@ -9,18 +9,68 @@ Button.-primary {
   font-size: 17;
 }
 
-
-
-/* 
-.dkbtn {
-  background-color: #64EC82;
-  color: #FFFFFF;
-  opacity: .05;
+* {
+  background-color: #1F1F1F;
 }
-*/
+
+ActionBar.bggrey {
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+.profile-image {
+  height: 150;
+  width: 150;
+  border-radius: 30;
+  margin-top: 20;
+}
+
+.developer-label {
+  color: #FFFFFF;
+  font-size: 20;
+  margin-top: 10;
+}
+
+.email-label, .location-label {
+  color: #FFFFFF;
+  margin-top: 20;
+}
+
+.social-buttons Image {
+  height: 40;
+  width: 40;
+  margin-top: 20;
+}
+
+.hire-button {
+  background-color: #00FF00;
+  color: #FFFFFF;
+  margin-top: 20;
+}
+
+.menu-item {
+  color: #FFFFFF;
+  border-bottom-width: 1;
+  border-bottom-color: #2E2E2E;
+  padding: 10;
+  font-size: 18;
+}
+
+
+
 
 
 /* app.css */
+
+
 .font-awesome-icon {
   font-family: "FontAwesome";
   font-size: 24; /* Adjust the size as needed */
@@ -31,7 +81,6 @@ Button.-primary {
   width: 390;
   height: 918;
   position: relative;
-  background-color: #1F1F1F;
   border-radius: 30;
   overflow: hidden;
 }
@@ -79,6 +128,8 @@ Button.-primary {
   border-radius: 30;
   border-width: 0.25;
   border-color: white;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .abigail {
@@ -145,7 +196,6 @@ Button.-primary {
   font-weight: 500;
   line-height: 45;
   word-wrap: break-word;
-  background-color: rgba(216.75, 255, 232.05, 0.05);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 100;
   border-bottom-width: 0.25;
@@ -159,7 +209,4 @@ Button.-primary {
 }
 
 
-Button.portfolio {
-  background-color: #64EC82;
-  color: white;
-}
+
