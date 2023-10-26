@@ -3,14 +3,14 @@ function onPageLoaded(args) {
     
     const timelineItems = [
         {
-            year: '2020 - Present',
+            year: '2023 - Present',
             entries: [
-                { title: 'Framer Designer & Developer', subtitle: 'Brunodee Agency' },
-                { title: 'Front-End WordPress Developer', subtitle: 'Envato Market' }
+                { title: 'Front-End Developer', subtitle: 'LimeLight Marketing' },
+                { title: 'Project Manager', subtitle: 'Pitt State CS Club' },
             ]
         },
         {
-            year: '2013 - 2019',
+            year: '2022 - 2023',
             entries: [
                 { title: 'Webflow Developer & Co-Founder', subtitle: 'Designflow Studio' },
                 { title: 'Web Designer', subtitle: 'Freelance' },
