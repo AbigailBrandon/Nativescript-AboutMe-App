@@ -2,12 +2,12 @@
 
     <!--=============== Navigation Content ===============-->
     <ActionBar title="Abigail Brandon" class="bggrey"></ActionBar>
-    <StackLayout>
-        <Label text="Welcome to My Portfolio!" fontSize="20" textAlignment="center" marginTop="20"></Label>
-        <Button text="Bio" tap="onBioTap" margin="10"></Button>
-        <Button text="Skills" tap="onSkillsTap" margin="10"></Button>
-        <Button text="Contact" tap="onContactTap" margin="10"></Button>
-    </StackLayout>
+        <StackLayout>
+            <Label text="Welcome to My Portfolio!" fontSize="20" textAlignment="center" marginTop="20"></Label>
+            <Button text="About" tap="onAboutTap" margin="10"></Button>
+            <Button text="Skills" tap="onSkillsTap" margin="10"></Button>
+            <Button text="Contact" tap="onContactTap" margin="10"></Button>
+        </StackLayout>
 
     <!--=============== Main Content ===============-->
     <ScrollView>
@@ -21,7 +21,7 @@
                 <Label text="Developer" class="developer" class="mx-16"></Label>
                 </StackLayout>
 
-                <Image row="2" src="https://lh3.googleusercontent.com/a/ACg8ocLr4T0D3ogDStByZp3gnZsXRPk0kdSmEOJs9zOynFAmEdg=s576-c-no" stretch="aspectFill" class="img-circle" width="236" height="213" class="rectangle-41 mt-10 mb-10"></Image>
+                <Image row="2" src="https://lh3.googleusercontent.com/a/ACg8ocLr4T0D3ogDStByZp3gnZsXRPk0kdSmEOJs9zOynFAmEdg=s576-c-no" stretch="aspectFill" width="236" height="213" class="rectangle-41 mt-10 mb-10"></Image>
 
                 <StackLayout class="left-100 top-412 text-white text-base font-normal leading-10 whitespace-normal" >
                     <Label text="Abigailbrandonn@gmail.com" class="abigail-email text-center"></Label>
@@ -40,8 +40,7 @@
             <!--=============== Buttons =================-->
             <StackLayout class="buttons" row="3" >
 
-                <Button text="Portfolio" class="portfolio" tap="onPortfolioTap" class="-primary -rounded-lg" style="background-color: #64EC82;" ></Button>
-
+                <Button text="Portfolio" tap="onPortfolioTap" class="-primary -rounded-lg portfolio" style="background-color: #64EC82;" ></Button>
                 <Button text="ABOUT" tap="onAboutTap" class="dkbtn -primary text-white rounded-full"></Button>
                 <Button text="SKILLS" tap="onSkillsTap" class="dkbtn -primary -rounded-lg"></Button>
                 <Button text="CONTACT" tap="onContactTap" class="dkbtn -primary -rounded-lg"></Button>

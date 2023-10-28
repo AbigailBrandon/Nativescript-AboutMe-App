@@ -1,6 +1,5 @@
 import { createViewModel } from './main-view-model';
 
-
 import { Frame } from "@nativescript/core";
 
 export function onAboutTap() {
@@ -18,7 +17,7 @@ export function onContactTap() {
   topmost.navigate("contact-page");
 }
 
-export function onPortfolioTap() {
+export function onPtTap() {
   const topmost = Frame.topmost();
   topmost.navigate("portfolio-page");
 }

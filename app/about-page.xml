@@ -1,24 +1,37 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" >
-    
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
     <ActionBar title="About">
         <NavigationButton text="Back" tap="goBack"></NavigationButton>
     </ActionBar>
 
-    <!--=============== Main Content ===============-->
-<ScrollView>
+        <!--=============== Main Content ===============-->
+    <ScrollView>
     <StackLayout class="p-4 md:p-6 space-y-5 md:space-y-10">
 
-    <StackLayout class="text-6xl md:text-6xl font-bold tracking-sm">
-        <Label text="Hi I'm"/>
-        <Label text="Abigail," class="text-green"/>
+        <!-- Introduction -->
+        <StackLayout class="text-6xl md:text-6xl font-bold tracking-sm">
+            <Label text="About Me" class="text-green"/>
+        </StackLayout>
+
+
+        <!-- Image with Rounded Corners -->
+        <Image src="https://lh3.googleusercontent.com/a/ACg8ocLr4T0D3ogDStByZp3gnZsXRPk0kdSmEOJs9zOynFAmEdg=s576-c-no" stretch="aspectFill" class="rectangle-41 rounded-lg mt-10 mb-10" width="236" height="213"></Image>
+
+        <!-- Description -->
+        <Label text="I'm Abigail, a dedicated developer who loves to find solutions. Beyond just writing scripts, I see myself as a digital problem-solver, seamlessly transforming challenges into functional solutions. Every error is a puzzle waiting to be solved, and I'm here to piece it all together." 
+            class="text-lg md:text-xl leading-snug" textWrap="true" />
+
+        <!-- Fun Facts or More About Me -->
+        <Label text="A few more things about me." textWrap="true" class="text-3xl md:text-4xl font-bold mt-8 md:mt-10 mb-4 md:mb-5 leading-snug" />
+        
+        <StackLayout class="space-y-4 md:space-y-6">
+            <Label text="⚪ When I'm not coding, you can catch me crafting or editing photos." class="text-lg md:text-xl leading-snug" textWrap="true" />
+            <Label text="⚪ I have a mini jungle at home. Any species of Monstera are my favorite!" class="text-lg md:text-xl leading-snug" textWrap="true" />
+            <!-- Add more facts or details here -->
+        </StackLayout>
+
     </StackLayout>
+    </ScrollView>
 
-    <Image src="https://lh3.googleusercontent.com/a/ACg8ocLr4T0D3ogDStByZp3gnZsXRPk0kdSmEOJs9zOynFAmEdg=s576-c-no" stretch="aspectFill" class="img-circle" width="236" height="213" class="rectangle-41 mt-10 mb-10"></Image>
 
-    <Label text="Hi, I'm Abigail! | Developer | Code Wrangler: Taming Errors, Unleashing Solutions" class="text-lg md:text-xl leading-snug" textWrap="true" />
-
-    <Label text="Education &amp;&#xa;Experience" textWrap="true" class="text-3xl md:text-4xl font-bold mt-8 md:mt-10 mb-4 md:mb-5 leading-snug" />
-
-    </StackLayout>
-</ScrollView>
 </Page>
+
