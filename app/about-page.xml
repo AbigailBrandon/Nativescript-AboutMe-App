@@ -5,21 +5,6 @@
     </ActionBar>
 
     <!--=============== Main Content ===============-->
-    <ScrollView >
-        <StackLayout>
-            <Label text="About Abigail" fontSize="18" textAlignment="center" marginTop="20"></Label>
-
-            <Image src="https://lh3.googleusercontent.com/a/ACg8ocLr4T0D3ogDStByZp3gnZsXRPk0kdSmEOJs9zOynFAmEdg=s576-c-no" stretch="aspectFill" class="img-circle" width="236" height="213" class="rectangle-41 mt-10 mb-10"></Image>
-
-            <StackLayout  class="text-center left-100 top-412 text-white text-base font-normal leading-10 whitespace-normal">
-            <Label text="Hi I'm Abigail, Developer by day and problem-solver by night"></Label>
-            <Label text="Based in Joplin, Missouri" class="mt-3 "></Label>
-            </StackLayout>
-        </StackLayout>
-    </ScrollView>
-
-</Page>
-
 <ScrollView >
 
     <StackLayout class="p-4 md:p-6 space-y-5 md:space-y-10">
