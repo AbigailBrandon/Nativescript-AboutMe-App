@@ -1,11 +1,11 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    
     <ActionBar title="About">
         <NavigationButton text="Back" tap="goBack"></NavigationButton>
     </ActionBar>
 
-
-        <!--=============== Main Content ===============-->
-    <ScrollView textWrap="true">
+    <!--=============== Main Content ===============-->
+    <ScrollView >
         <StackLayout>
             <Label text="About Abigail" fontSize="18" textAlignment="center" marginTop="20"></Label>
 
@@ -20,3 +20,21 @@
 
 </Page>
 
+<ScrollView >
+
+    <StackLayout class="p-4 md:p-6 space-y-5 md:space-y-10">
+
+    <StackLayout class="text-6xl md:text-6xl font-bold tracking-sm">
+        <Label text="Hi I'm"/>
+        <Label text="Abigail," class="text-green"/>
+    </StackLayout>
+
+    <Image src="https://lh3.googleusercontent.com/a/ACg8ocLr4T0D3ogDStByZp3gnZsXRPk0kdSmEOJs9zOynFAmEdg=s576-c-no" stretch="aspectFill" class="img-circle" width="236" height="213" class="rectangle-41 mt-10 mb-10"></Image>
+
+    <Label text="Hi, I'm Abigail! | Developer | Code Wrangler: Taming Errors, Unleashing Solutions" class="text-lg md:text-xl leading-snug" textWrap="true" />
+
+    <Label text="Education &amp;&#xa;Experience" textWrap="true" class="text-3xl md:text-4xl font-bold mt-8 md:mt-10 mb-4 md:mb-5 leading-snug" />
+
+    </StackLayout>
+  </ScrollView>
+</Page>
