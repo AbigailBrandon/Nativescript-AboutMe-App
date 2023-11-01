@@ -5,7 +5,7 @@ import { Frame } from "@nativescript/core";
 
 export function onPortfolioTap() {
   const topmost = Frame.topmost();
-  topmost.navigate("portfolio-page");
+  topmost.navigate("portfolio");
 }
 
 export function onAboutTap() {

@@ -40,7 +40,7 @@
             <!--=============== Buttons =================-->
             <StackLayout class="buttons" row="3" >
 
-                <Button text="PORTFOLIO" tap="onPtTap" class="-primary -rounded-lg" style="background-color: #64EC82;" ></Button>
+                <Button text="PORTFOLIO" tap="onPortfolioTap" class="-primary -rounded-lg" style="background-color: #64EC82;" ></Button>
                 <Button text="ABOUT" tap="onAboutTap" class="dkbtn -primary text-white rounded-full"></Button>
                 <Button text="SKILLS" tap="onSkillsTap" class="dkbtn -primary -rounded-lg"></Button>
                 <Button text="CONTACT" tap="onContactTap" class="dkbtn -primary -rounded-lg"></Button>
