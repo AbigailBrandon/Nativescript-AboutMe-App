@@ -18,8 +18,9 @@
 
             <TextView hint="Write your message here" class="input-field h-24 mb-8"/>
 
-            <Button text="SEND MESSAGE" tap="submitForm" class="btn-primary mb-4" ></Button>
-            <Button text="HOME" class="btn-secondary" ></Button>
+
+            <Button text="SEND MESSAGE" tap="submitForm" class="button -rounded-full" style="background-color: #64EC82;" ></Button>
+            <Button text="HOME" tap="homeTap" class="button -rounded-full" style="background-color: #64EC82;" ></Button>
         </StackLayout>
     </ScrollView>
 

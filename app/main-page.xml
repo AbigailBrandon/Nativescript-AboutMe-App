@@ -38,7 +38,7 @@
 
             </StackLayout>
             <!--=============== Buttons =================-->
-            <StackLayout class="buttons" row="3" >
+            <StackLayout class="button" row="3" >
 
                 <Button text="PORTFOLIO" tap="onPortfolioTap" class="-primary -rounded-lg" style="background-color: #64EC82;" ></Button>
                 <Button text="ABOUT" tap="onAboutTap" class="dkbtn -primary text-white rounded-full"></Button>
