@@ -19,7 +19,7 @@
             <TextView hint="Write your message here" class="input-field h-24 mb-8"/>
 
             <StackLayout >
-                <Button text="SEND MESSAGE" tap="onSubmitTap" class="button -primary -rounded-lg" ></Button>
+                <Button text="SUBMIT" tap="onSubmitTap" class="rounded-full button -primary" style="background-color: #64EC82;"></Button>
                 <Button text="HOME" tap="onHomeTap" class="rounded-full button -primary" style="background-color: #64EC82;"></Button>
             </StackLayout>
             
