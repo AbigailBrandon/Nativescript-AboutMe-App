@@ -31,8 +31,33 @@
           </StackLayout>
         </StackLayout>
         <!-- add other timeline items -->
-
       </StackLayout>
+
+
+
+      <!--Listview--> 
+      <StackLayout>
+      <Label text="My skills" textWrap="true" class="text-3xl md:text-4xl font-bold mt-8 md:mt-10 mb-4 md:mb-5 leading-snug" />
+        <ListView id="myListView" items="{{ skills }}" itemTap="onItemTap">
+            <ListView.itemTemplate>
+                <StackLayout orientation="horizontal" class="mb-10">
+                    <Label class="text-lg" text="{{ icon }}" />
+                    <Label class="text-lg ml-5" text="{{ name }}" />
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+      </StackLayout>
+
+
     </StackLayout>
   </ScrollView>
+
+
+
+
+
+
+    
+
+
 </Page>
