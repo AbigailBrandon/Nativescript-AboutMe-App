@@ -37,7 +37,6 @@ function onPageLoaded(args) {
         { name: 'Adobe Photoshop', icon: '➤' },
     ];
     
-
     page.bindingContext = {
         timelineItems: timelineItems,
         skills: skills,
